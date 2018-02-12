@@ -117,8 +117,6 @@ main .container p{
 
 #twocolumn .container {
 	margin-top: 5px;
-	display: flex;
-	justify-content: space-around;
 }
 
 #twocolumn .container .first{
@@ -194,6 +192,11 @@ footer .contain ul li a:hover{
 	#boxes .container, #twocolumn .container{
 		display: flex;
 		justify-content: center;
+	}
+
+	#twocolumn .container .second{
+		display: flex;
+		flex-direction: column;
 	}
 
 	footer{
