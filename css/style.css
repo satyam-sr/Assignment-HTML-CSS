@@ -51,6 +51,7 @@ header li{
 
 main{
   margin-top:100px;
+  margin-bottom: 70px;
 }
 
 main h1{
@@ -77,20 +78,21 @@ main .container p{
 	float: right;
 	font-size: 17px;
 }
-#projects{
+
+#boxes{
+	margin-bottom: 80px;
+	margin-top: 30px;
+}
+
+#boxes h2{
   margin-top: 50px;
   padding:15px;
   color:#ffffff;
   background:#35424a;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-#projects .container h2{
-	text-align: center;
-}
-
-#boxes .container{
-  
-}
 
 #boxes .container .box{
 	flex: 1;
@@ -100,21 +102,23 @@ main .container p{
 	margin-bottom: 20px;
 }
 
-#know{
-  margin-top: 50px;
+#twocolumn{
+	margin-bottom: 50px;
+}
+
+#twocolumn h2{
+  margin-top: 20px;
+  margin-bottom: 0px;
   padding:15px;
   color:#ffffff;
   background:#35424a;
+  text-align: center;
 }
-
-#know .container h2{
-	text-align: center;
-}
-
 
 #twocolumn .container {
-	margin-top: 25px;
-	
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-around;
 }
 
 #twocolumn .container .first{
@@ -130,7 +134,7 @@ main .container p{
 	width: 38%;
 	box-sizing: border-box;
 	padding: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 footer{
