@@ -49,44 +49,42 @@ header li{
   padding: 0 20px 0 20px;
 }
 
-main{
-  margin-top:100px;
-  margin-bottom: 70px;
+.hero-image {
+    background: url("../img/hero4.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-main h1{
-	text-align: center;
+.hero-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
-main .container{
-	margin-top: 50px;
+.hero-text h1{
+	padding-top: 60px; 
+	font-size: 55px;
+	padding-left: 20px;
 }
 
-main .container img{
-	/*border: 10px solid transparent;*/
-	border-radius: 8px;
-	float: left;
-	margin-right: 50px;
-	border-color: currentColor;
-}
-
-main .container h1{
-	float: right;
-}
-
-main .container p{
-	float: right;
-	font-size: 17px;
+.hero-text pre{
+	padding-right: 40px;
+	margin-top: 300px;
+	padding-top: 40px;
+	font-size: 30px;
 }
 
 #boxes{
-	margin-bottom: 80px;
-	margin-top: 30px;
+	margin-bottom: 100px;
 }
 
 #boxes h2{
-  margin-top: 50px;
-  padding:15px;
+  margin-top: 0px;
+  padding:20px;
   color:#ffffff;
   background:#35424a;
   text-align: center;
@@ -97,9 +95,10 @@ main .container p{
 #boxes .container .box{
 	flex: 1;
 	width: 25%;
-	padding: 20px;
+	padding: 15px;
 	box-sizing: border-box;
 	margin-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 #twocolumn{
