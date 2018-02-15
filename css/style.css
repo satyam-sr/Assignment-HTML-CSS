@@ -50,7 +50,7 @@ header li{
 }
 
 .hero-image {
-    background: url("../img/hero4.jpg");
+    background: url("../img/hero1.jpg");
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ header li{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: hsl(0, 20%, 50%);
 }
 
 .hero-text h1{
